@@ -31141,7 +31141,7 @@
 	      { className: 'card-block' },
 	      _react2.default.createElement('img', {
 	        className: 'w-100 mx-auto mb-3',
-	        src: 'http://covers.openlibrary.org/b/ISBN/' + book.isbn + '-M.jpg' }),
+	        src: 'https://covers.openlibrary.org/b/ISBN/' + book.isbn + '-M.jpg' }),
 	      _react2.default.createElement(
 	        'h5',
 	        { className: 'mb-0' },

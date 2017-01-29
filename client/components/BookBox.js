@@ -7,7 +7,7 @@ function BookBox({ book, user }) {
       <div className="card-block">
         <img
           className="w-100 mx-auto mb-3"
-          src={`http://covers.openlibrary.org/b/ISBN/${book.isbn}-M.jpg`} />
+          src={`https://covers.openlibrary.org/b/ISBN/${book.isbn}-M.jpg`} />
         <h5 className="mb-0">{book.title}</h5>
         {book.owner !== user._id &&
           <Link to={`/request-trade/${book._id}`}>Make Trade Request</Link>
